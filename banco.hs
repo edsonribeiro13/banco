@@ -16,10 +16,10 @@ menu estado = do putStrLn "Simulacao de caixa automatico"
                  opcao <- getLine
                  
                  case opcao of
-                    1 -> putStrLn "      Banco Haskell S.A."
-                    2 -> putStrLn "      Banco Haskell S.A."
-                    3 -> putStrLn "      Banco Haskell S.A."
-                    4 -> putStrLn "      Banco Haskell S.A."
+                    "1" -> putStrLn "      Banco Haskell S.A."
+                    "2" -> putStrLn "      Banco Haskell S.A."
+                    "3" -> putStrLn "      Banco Haskell S.A."
+                    "4" -> putStrLn "      Banco Haskell S.A."
                     defaul ->  putStrLn "erro"
 
                  if opcao == "1" 
